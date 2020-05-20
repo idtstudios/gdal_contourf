@@ -20,7 +20,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3")
-    api("org.gdal:gdal:2.4.3")
+    api("org.gdal:gdal:2.4.0")
 }
 
 tasks.withType<KotlinCompile> {
